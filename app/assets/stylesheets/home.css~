@@ -1,0 +1,80 @@
+body {
+	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.nvly-logo{
+	background-color: #ff0511;
+	width: 200px;
+	height: 200px;
+	-webkit-border-radius: 50%;
+	-moz-box-shadow: #000 0px 0px 50px; 
+	box-shadow: #000 0 0 50px;
+	color: #fff;
+	text-align: center;
+	font-size: 36px;
+	font-family: Playball, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#p-nvly-logo {
+	padding: 70px;
+}
+
+@font-face {
+  font-family: 'Playball';
+
+  src: url('fonts/Playball.ttf');
+}
+
+.full-width-image-1 {
+	//background: url(http://lorempixel.com/g/1920/500/) no-repeat center center;
+	background: url('images/back1.jpg');
+	background-size: cover;
+	text-align: center;
+	padding: 100px 0;
+	margin: 0px;
+}
+
+.full-width-image-2 {
+	background: url(http://lorempixel.com/g/1920/450/) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 450px;
+}
+
+.logo-wrapper {
+	display: inline-block;
+}
+
+.section {
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+.section-heading {
+	font-size: 4em;
+	margin: 30px 0;
+}
+
+.section-lead {
+	margin: 30px 0;
+}
+
+.section-paragraph {
+	margin: 30px 0;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+@media (max-width: 768px) {
+
+.section-heading {
+	font-size: 2em;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+}
