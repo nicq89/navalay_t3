@@ -10,6 +10,7 @@ gem 'rails', '4.0.2'
 group :development, :test do
      gem 'sqlite3' 
      gem 'rspec-rails'
+     gem 'rails_12factor'
 end
 
 # Use SCSS for stylesheets
